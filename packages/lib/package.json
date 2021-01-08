@@ -1,6 +1,6 @@
 {
     "name": "@lljj/nav",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "页面锚点导航条，滚动定位 ，响应式支持pc和m",
     "main": "dist/lljjNav.umd.min.js",
     "module": "dist/lljjNav.esm.min.js",
