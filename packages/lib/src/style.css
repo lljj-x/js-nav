@@ -1,0 +1,14 @@
+.lj-horizontal-nav {
+    text-align: center;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    .lj-nav-wrapper {
+        display: inline-block;
+        vertical-align: top;
+        white-space: nowrap;
+        width: auto;
+    }
+}
