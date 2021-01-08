@@ -1,7 +1,11 @@
 # @lljj/nav
 ## 介绍
 
-* 页面锚点导航条，滚动定位 ，响应式支持pc和m
+* 页面锚点导航条，滚动定位，可结合项目已有的滚动滑块。比如：swiper、iscroll 等
+
+* [查看基础演示](http://js-contacts.buhuida.com/)，[查看使用代码](https://github.com/lljj-x/js-nav/blob/main/packages/demo/src/pages/index/index.js)
+* [查看演示swiper nav](http://js-contacts.buhuida.com/index-swiper.html) [查看使用代码](https://github.com/lljj-x/js-nav/blob/main/packages/demo/src/pages/index-swiper/index-swiper.js)
+
 ![@lljj/nav](https://lljj-xxxx.oss-cn-hongkong.aliyuncs.com/nav.gif)
 
 ## 使用方法
