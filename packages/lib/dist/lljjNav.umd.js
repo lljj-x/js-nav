@@ -1,9 +1,9 @@
 /** @license @lljj/nav (c) 2020-2021 Liu.Jun License: MIT */
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
-  typeof define === 'function' && define.amd ? define(['exports'], factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.lljjNav = {}));
-}(this, (function (exports) { 'use strict';
+  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+  typeof define === 'function' && define.amd ? define(factory) :
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.lljjNav = factory());
+}(this, (function () { 'use strict';
 
   function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) {
@@ -580,8 +580,6 @@
     return _default;
   }();
 
-  exports.default = _default;
-
-  Object.defineProperty(exports, '__esModule', { value: true });
+  return _default;
 
 })));
